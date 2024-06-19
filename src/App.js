@@ -8,13 +8,13 @@ const App = () => {
   const [movies, setMovies] = useState([
     {
       title: 'INCEPTION',
-      description: 'Description of Movie 1',
+      description: '"Inception," directed by Christopher Nolan, is a mind-bending science fiction thriller released in 2010. The film stars Leonardo DiCaprio as Dom Cobb, a skilled thief who specializes in the art of extraction: stealing valuable secrets from deep within the subconscious during the dream state.',
       posterURL: require('./assets/inception.jpg').default,
       rating: 4.5
     },
     {
       title: 'THE MATRIX',
-      description: 'Description of Movie 2',
+      description: '"The Matrix," released in 1999 and directed by the Wachowskis, is a groundbreaking science fiction film that revolutionized action filmmaking and popular culture. The story follows Thomas Anderson, played by Keanu Reeves, a computer programmer by day and a hacker known as Neo by night.',
       posterURL: require('./assets/matrix.jpg').default,
       rating: 4.8
     }
